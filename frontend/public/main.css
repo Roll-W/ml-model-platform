@@ -1,0 +1,105 @@
+/*
+ * Copyright (C) 2022 RollW
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *     http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+
+
+body {
+    font-family: "Muli", "PingFang SC", "HarmonyOS_Medium",
+    "思源黑体 CN Normal", "Source Hans", "Helvetica Neue", "Microsoft YaHei",
+    sans-serif;
+}
+
+.btn {
+    cursor: pointer;
+}
+
+thead > tr > th {
+    font-weight: bold;
+}
+
+th {
+    font-weight: normal;
+}
+
+.w-15 {
+    width: 15%;
+}
+
+.w-20 {
+    width: 20%;
+}
+
+.w-30 {
+    width: 30%;
+}
+
+.w-35 {
+    width: 35%;
+}
+
+.w-45 {
+    width: 45%;
+}
+
+.w-40 {
+    width: 40%;
+}
+
+.hidden {
+    display: none;
+}
+
+.vh-25 {
+    height: 25vh;
+}
+
+.vh-50 {
+    height: 50vh;
+}
+
+.v-enter-active,
+.v-leave-active {
+    transition: opacity 0.5s ease;
+}
+
+.v-enter-from,
+.v-leave-to {
+    opacity: 0;
+}
+
+.fade-enter-active,
+.fade-leave-active {
+    transition: opacity 0.5s ease;
+}
+
+.fade-enter-from,
+.fade-leave-to {
+    opacity: 0;
+}
+
+.slide-fade-enter-active {
+    transition: all 0.3s ease-out;
+}
+
+.slide-fade-leave-active {
+    transition: all 0.8s cubic-bezier(1, 0.5, 0.8, 1);
+}
+
+.slide-fade-enter-from,
+.slide-fade-leave-to {
+    transform: translateX(20px);
+    opacity: 0;
+}
+
